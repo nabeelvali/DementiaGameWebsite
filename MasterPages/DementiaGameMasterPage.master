@@ -7,12 +7,16 @@
    
 </script>
 
+
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>QuadCore Industries</title>
+
     <link rel="stylesheet" type="text/css" href="/CSS/Dementia.css" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+
     <style type="text/css">
         .auto-style2 {
             height: 76px;
@@ -22,15 +26,33 @@
             height: 247px;
             width: 1196px;
         }
+
+        #mybanner {
+            height: ;
+            width: ;
+        }
     </style>
+
+
 </head>
+
+
+
+
+
 <body>
+
     <form id="form1" runat="server">
     <div class="auto-style2">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+
     </div>
+
+        <div id="mybanner">
+
+        </div>
         
         <p>
             &nbsp;</p>
