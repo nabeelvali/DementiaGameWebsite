@@ -37,7 +37,7 @@
 </script>
 
 
-QuadCore Industries</title>
+
 
     <link rel="stylesheet" type="text/css" href="/CSS/Dementia.css" />
     <asp:ContentPlaceHolder id="head" runat="server">
@@ -56,7 +56,7 @@ QuadCore Industries</title>
     </style>
 
 
-</head>
+
 
 
 
