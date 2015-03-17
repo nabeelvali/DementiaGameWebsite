@@ -18,16 +18,12 @@
     </asp:ContentPlaceHolder>
 
     <style type="text/css">
-        .auto-style2 {
-            height: 76px;
-            width: 353px;
-        }
-        #form1 {
-            height: 247px;
+        .body {
+            height: 10000;
             width: 1196px;
         }
 
-        #mybanner {
+        #mybannerbackground {
             height: ;
             width: ;
         }
@@ -43,15 +39,19 @@
 <body>
 
     <form id="form1" runat="server">
-    <div class="auto-style2">
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
 
-    </div>
-
-        <div id="mybanner">
-
+        <div id="banner">
+            <img id="mybannerbackground" src="../Images/Matrix.jpg" />
+            
+            
+            <br />
+            &nbsp;&nbsp;&nbsp;<asp:Button ID="home" runat="server" Text="" Width="105px" />
+            &nbsp;&nbsp;&nbsp;<asp:Button ID="about" runat="server" Text="About" Width="70"/>
+            &nbsp;&nbsp;&nbsp;<asp:Button ID="new" runat="server" Text="New" Width="60"/>
+            &nbsp;&nbsp;&nbsp;<asp:Button ID="buy" runat="server" Text="Buy Now" Width="80"/>
+            &nbsp;&nbsp;&nbsp;<asp:Button ID="products" runat="server" Text="Products" Width="75"/>
+            &nbsp;&nbsp;&nbsp;<asp:Button ID="contact" runat="server" Text="Contact Us" Width="90"/>
+            <br />
         </div>
         
         <p>
@@ -59,6 +59,25 @@
         <p>
             &nbsp;</p>
         
+        <div id="rightside">
+
+        </div>
+
+        <div id="maincontent">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+        
+
+        <div id="footer">
+            <p></p>
+        </div>
+
+
+
     </form>
+
 </body>
 </html>

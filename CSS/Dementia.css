@@ -1,4 +1,75 @@
-﻿body 
+﻿/*Main Parts*/
+
+body 
 {   
-   Hello Nabeel
+   padding: 5px;
 }
+
+#banner
+{
+    height:;
+    width:100%;
+    font-family:;
+}
+
+#mybannerbackground
+{
+    height:60px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#rightside
+{
+
+    float:right;
+    width:30%;
+    height:auto;
+}
+
+#maincontent
+{
+    float:left;
+    width: 60%;
+    height:auto;
+    font-family:;
+}
+
+#footer
+{
+    clear:both;
+    font-family:;
+}
+
+/*Menu Buttons*/
+
+#home
+{
+    
+}
+
+#about
+{
+
+}
+
+#new
+{
+
+}
+
+#buy
+{
+
+}
+
+#products
+{
+
+}
+
+#contact
+{
+
+}
+
