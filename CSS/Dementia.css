@@ -73,3 +73,24 @@ body
 
 }
 
+.Pacman
+{
+    background-image:url(/Images/1367506854_4006_Pac-Man.jpg);
+    background-repeat:no-repeat;
+}
+
+.line{
+    background-repeat:repeat;
+}
+
+.LegendofZelda
+{
+    background-image:url(/Images/The-Legend-of-Zelad-1.jpg);
+    background-repeat:no-repeat;
+}
+
+.Minecraft
+{
+    background-image:url(/Images/Minecraft_Stream_Icon.png);
+}
+
