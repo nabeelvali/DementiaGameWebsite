@@ -3,6 +3,7 @@
 body 
 {   
    padding: 5px;
+   font-family: Consolas;
 }
 
 #banner
@@ -39,6 +40,16 @@ body
 {
     clear:both;
     font-family:;
+}
+
+#header
+{
+    font-family: fantasy;
+}
+
+#PurchaseButton1
+{
+    
 }
 
 /*Menu Buttons*/
