@@ -51,13 +51,12 @@
             &nbsp;&nbsp;&nbsp;<asp:Button ID="buy" runat="server" Text="Buy Now" Width="80"/>
             &nbsp;&nbsp;&nbsp;<asp:Button ID="products" runat="server" Text="Products" Width="75"/>
             &nbsp;&nbsp;&nbsp;<asp:Button ID="contact" runat="server" Text="Contact Us" Width="90"/>
-            <br />
+            <br /><br /><hr />
+
         </div>
         
-        <p>
-            &nbsp;</p>
-        <p>
-            &nbsp;</p>
+        <br />
+        
         
         <div id="rightside">
 
