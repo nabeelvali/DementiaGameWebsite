@@ -70,7 +70,7 @@
             &nbsp;<asp:Button ID="new" runat="server" Text="New" Width="50px" OnClick="new_Click" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/New.aspx"/>
             &nbsp;<asp:Button ID="buy" runat="server" Text="Buy Now" Width="80" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/BuyNow.aspx"/>
             &nbsp;<asp:Button ID="products" runat="server" Text="Products" Width="80px" OnClick="products_Click" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/Products.aspx"/>
-            &nbsp;<asp:Button ID="contact" runat="server" Text="Contact Us" Width="95px" OnClick="contact_Click" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/Contact.aspx"/>
+            &nbsp;<asp:Button ID="contact" runat="server" Text="Contact" Width="80px" OnClick="contact_Click" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/Contact.aspx"/>
             <br /><hr />
 
         </div>
@@ -84,6 +84,10 @@
 
         <div id="maincontent">
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                
+                
+
         
             </asp:ContentPlaceHolder>
         </div>
