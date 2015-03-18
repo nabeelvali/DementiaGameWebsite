@@ -91,3 +91,21 @@ body
 {
     
 }
+
+#PriceLabel1
+{
+    float:inherit;
+    padding-left:20px;
+}
+
+#Newdescription
+{
+    float:right;
+
+}
+
+#Newlogo
+{
+    float:left;
+    margin-left:px;
+}
