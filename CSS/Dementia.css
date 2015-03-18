@@ -111,9 +111,9 @@ body
 {
     width:412px;
     position:absolute;
-    top: 188px;
+    top: 186px;
     left: 629px;
-    height: 579px;
+    height: 581px;
     background-color: #333333;
     color: #FFFFFF;
 }
@@ -130,7 +130,7 @@ body
 #lbl1buynow
 {
     position:absolute;
-    z-index:3;
+
 }
 #signinbox
 {
@@ -141,22 +141,38 @@ body
     height: 190px;
     color: #333333;
     background-color: #333333;
+
 }
 #usernamepic
 {
-    width:200px;
+    width:29px;
     position:absolute;
+    top: 315px;
+    left: 689px;
+    height:23px;
+    background-image:url(/Images/userimage.png);
 }
 #passwordpic
 {
-    width:200px;
+    width:29px;
     position:absolute;
+    top: 392px;
+    left: 691px;
+    height: 23px;
+    background-image:url(/Images/lock.png);
 }
 #tbusername1
 {
     position:absolute;
     width:200px;
+    top: 18px;
+    left: 54px;
+    border-color:red;
+    height: 23px;
+    background-color: #FF0000;
+
 }
+/*Buy now webform end*/
 #PriceLabel1
 {
     float:inherit;
