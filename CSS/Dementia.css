@@ -92,6 +92,71 @@ body
     
 }
 
+/*Buy Now webform*/
+#leftsidebox
+{
+    width:616px;
+    position:absolute;
+    top: 158px;
+    left: 13px;
+    height: 825px;
+    background-color: #999999;
+    z-index:-1;
+}
+#btn1
+{
+    position:absolute;
+}
+#rightsidebox
+{
+    width:412px;
+    position:absolute;
+    top: 188px;
+    left: 629px;
+    height: 579px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+#rightsideboxoutline
+{
+    width:368px;
+    position:absolute;
+    top: 208px;
+    left: 652px;
+    height: 535px;
+    background-color: #999999;
+    color: #FFFFFF;
+}
+#lbl1buynow
+{
+    position:absolute;
+    z-index:3;
+}
+#signinbox
+{
+    width:319px;
+    position:absolute;
+    top: 294px;
+    left: 676px;
+    height: 190px;
+    color: #333333;
+    background-color: #333333;
+}
+#usernamepic
+{
+    width:200px;
+    position:absolute;
+}
+#passwordpic
+{
+    width:200px;
+    position:absolute;
+}
+#tbusername1
+{
+    position:absolute;
+    width:200px;
+}
 #PriceLabel1
 {
     float:inherit;
