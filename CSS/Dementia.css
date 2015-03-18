@@ -3,28 +3,21 @@
 body 
 {   
    padding: 5px;
+   font-family: Consolas;
 }
 
-#banner
-{
-    height:;
-    width:100%;
-    font-family:;
-}
 
-#mybannerbackground
+#homelogo
 {
-    height:60px;
-    background-repeat:no-repeat;
-    background-size:cover;
+    height:70px;
 }
 
 #rightside
 {
-
     float:right;
     width:30%;
     height:600px;
+    border:thin solid #000000;
 }
 
 #maincontent
@@ -41,37 +34,51 @@ body
     font-family:;
 }
 
+#header
+{
+    font-family: fantasy;
+}
+
 /*Menu Buttons*/
+
+#banner
+{
+    font-family:Consolas;
+    
+}
 
 #home
 {
-    
+    font-family:Consolas;
+    height:25px;
 }
 
 #about
 {
-
+    font-family:Consolas;
 }
 
 #new
 {
-
+    font-family:Consolas;
 }
 
 #buy
 {
-
+    font-family:Consolas;
 }
 
 #products
 {
-
+    font-family:Consolas;
 }
 
 #contact
 {
-
+    font-family:Consolas;
 }
+
+
 
 .Pacman
 {
@@ -79,7 +86,8 @@ body
     background-repeat:no-repeat;
 }
 
-.line{
+.line
+{
     background-repeat:repeat;
 }
 
@@ -91,6 +99,14 @@ body
 
 .Minecraft
 {
-    background-image:url(/Images/Minecraft_Stream_Icon.png);
+    background-image:url(/Images/Minecraft_Steam_Icon.png);
+    background-repeat:no-repeat;
 }
+
+.Portal
+{
+    background-image:url(/Images/portal1.jpg);
+    background-repeat:no-repeat;
+}
+
 

@@ -5,13 +5,39 @@
 <script runat="server">
 
    
+    protected void homelogo_Click(object sender, ImageClickEventArgs e)
+    {
+
+    }
+
+    protected void about_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void new_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void buy_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void products_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void contact_Click(object sender, EventArgs e)
+    {
+
+    }
 </script>
 
 
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>QuadCore Industries</title>
 
     <link rel="stylesheet" type="text/css" href="/CSS/Dementia.css" />
     <asp:ContentPlaceHolder id="head" runat="server">
@@ -30,7 +56,7 @@
     </style>
 
 
-</head>
+
 
 
 
@@ -41,17 +67,19 @@
     <form id="form1" runat="server">
 
         <div id="banner">
-            <img id="mybannerbackground" src="../Images/Matrix.jpg" />
             
             
-            <br />
-            &nbsp;&nbsp;&nbsp;<asp:Button ID="home" runat="server" Text="" Width="105px" />
-            &nbsp;&nbsp;&nbsp;<asp:Button ID="about" runat="server" Text="About" Width="70"/>
-            &nbsp;&nbsp;&nbsp;<asp:Button ID="new" runat="server" Text="New" Width="60"/>
-            &nbsp;&nbsp;&nbsp;<asp:Button ID="buy" runat="server" Text="Buy Now" Width="80"/>
-            &nbsp;&nbsp;&nbsp;<asp:Button ID="products" runat="server" Text="Products" Width="75"/>
-            &nbsp;&nbsp;&nbsp;<asp:Button ID="contact" runat="server" Text="Contact Us" Width="90"/>
-            <br /><br /><hr />
+            
+            &nbsp;&nbsp;&nbsp;
+            <asp:ImageButton ID="homelogo" src="../Images/New%20QuadCore%20Logo2.jpg" runat="server" OnClick="homelogo_Click" />
+            
+            <%--<asp:Button ID="home" runat="server" Text="" Width="105px" src="../Images/QuadCoreLogo-DesktopFit.png"/>--%>
+            &nbsp;<asp:Button ID="about" runat="server" Text="About" Width="70px" OnClick="about_Click"/>
+            &nbsp;<asp:Button ID="new" runat="server" Text="New" Width="50px" OnClick="new_Click"/>
+            &nbsp;<asp:Button ID="buy" runat="server" Text="Buy Now" Width="80"/>
+            &nbsp;<asp:Button ID="products" runat="server" Text="Products" Width="80px" OnClick="products_Click"/>
+            &nbsp;<asp:Button ID="contact" runat="server" Text="Contact Us" Width="95px" OnClick="contact_Click"/>
+            <br /><hr />
 
         </div>
         

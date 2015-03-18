@@ -3,20 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DementiaGameWebsite", "http://localhost:52074", "{5AB6757B-F998-45F8-9FBE-0694982CBFCB}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DementiaGameWebsite", "http://localhost:51724", "{66CEA7E6-F822-430A-A493-4344ECE2FDDA}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_52074"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51724"
 		Debug.AspNetCompiler.PhysicalPath = "..\DementiaGameWebsite\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52074\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51724\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_52074"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51724"
 		Release.AspNetCompiler.PhysicalPath = "..\DementiaGameWebsite\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52074\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51724\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
@@ -29,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5AB6757B-F998-45F8-9FBE-0694982CBFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5AB6757B-F998-45F8-9FBE-0694982CBFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CEA7E6-F822-430A-A493-4344ECE2FDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CEA7E6-F822-430A-A493-4344ECE2FDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
