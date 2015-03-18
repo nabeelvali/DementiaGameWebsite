@@ -2,23 +2,14 @@
 
 body 
 {   
-   padding: 5px;
-   font-family: Consolas;
+   /*background-image:url(/Images/GrayCarbonFiber.jpg);
+       
+    background-repeat:repeat-y;
+    background-size:cover;*/
+
+    padding: 5px;
+    font-family: Consolas;
 }
-
-/*#banner
-{
-    height:;
-    width:100%;
-    font-family:;
-}*/
-
-/*#mybannerbackground
-{
-    height:60px;
-    background-repeat:no-repeat;
-    background-size:cover;
-}*/
 
 #homelogo
 {
@@ -38,18 +29,17 @@ body
     float:left;
     width: 65%;
     height:600px;
-    font-family:;
 }
 
 #footer
 {
     clear:both;
-    font-family:;
+    
 }
 
-#header
+#headerabout
 {
-    font-family: fantasy;
+    font-family: 'Myriad Pro';
 }
 
 /*Menu Buttons*/
