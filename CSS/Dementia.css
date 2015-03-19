@@ -7,10 +7,12 @@
     Nabeel put them above the body tag
     John: above the homelogo tag
     Moriah: about the rightside tag
-    Grnat: above the maincontent tag
+    Grant: above the maincontent tag
     */
 
+/*Nabeel*/
 
+/*Nabeel*/
 body 
 {   
    /*background-image:url(/Images/GrayCarbonFiber.jpg);
@@ -22,10 +24,18 @@ body
     font-family: Consolas;
 }
 
+/*John*/
+
+/*John*/
+
 #homelogo
 {
     height:70px;
 }
+
+/*Moriah*/
+
+/*Moriah*/
 
 #rightside
 {
@@ -34,6 +44,10 @@ body
     height:600px;
     border:thin solid #000000;
 }
+
+/*Grant*/
+
+/*Grant*/
 
 #maincontent
 {
