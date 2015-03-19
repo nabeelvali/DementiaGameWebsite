@@ -109,4 +109,9 @@ body
     background-repeat:no-repeat;
 }
 
+.Supermario
+{
+    background-image:url(/Images/super-mario-logo.jpg);
+    background-repeat:no-repeat;
+}
 
