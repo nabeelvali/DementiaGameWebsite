@@ -9,11 +9,6 @@
     Moriah: about the rightside tag
     Grant: above the maincontent tag
     */
-.Grant
-{
-
-}
-
 
 body 
 {   
@@ -30,14 +25,14 @@ body
 
 /*John*/
 
+/*Grant*/
+
+/*Grant*/
+
 #homelogo
 {
     height:70px;
 }
-
-/*Moriah*/
-
-/*Moriah*/
 
 #rightside
 {
@@ -47,19 +42,14 @@ body
     border:thin solid #000000;
 }
 
-/*Grant*/
 
-#Content1
-{
-    background-color:gold;
-}
-/*Grant*/
 
 #maincontent
 {
     float:left;
     width: 65%;
     height:600px;
+    /*background-color:lightgray;*/
 }
 
 #footer
@@ -111,12 +101,13 @@ body
 {
     font-family:Consolas;
 }
+/*Menu buttons end*/
 
 /*Other*/
 
 
 
-/*New webform*/
+
 
 #PurchaseButton1
 {
@@ -132,19 +123,40 @@ body
     padding-left:20px;
 }
 
+
+
+/* New webform*/
+
 #Newdescription
 {
-    float:right;
-
+    position:relative;
+    top: -298px;
+    left: 342px;
+    width: 483px;
+    height: 285px;
 }
 
+#Newgamelogo
+{
+    position:relative;
+    top: -32px;
+    left: 5px;
+    height: 249px;
+    width: 257px;
+    margin-top: 17px;
+}
+
+#Newheader
+{
+    font-size:16px;
+}
+
+/* New webform end*/
+
+
+/* Contact webform*/
 #Contactsendbutton
 {
     margin-left:230px;
 }
-
-#Newlogo
-{
-    float:left;
-    margin-left:px;
-}
+/* Contact webform end*/
