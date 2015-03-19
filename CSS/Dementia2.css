@@ -10,9 +10,15 @@
     position:absolute;
     top: 158px;
     left: 13px;
-    height: 609px;
+    height: 669px;
     background-color: #999999;
     z-index:-1;
+}
+#leftsideboxoutline
+{
+    position:absolute;
+    width:200px;
+    height:200px;
 }
 #Button1
 {
@@ -27,7 +33,7 @@
     position:absolute;
     top: 186px;
     left: 629px;
-    height: 581px;
+    height: 639px;
     background-color: #333333;
     color: #FFFFFF;
 
@@ -89,6 +95,30 @@
     top: 166px;
     left: 129px;
 }
+#Quadcorelogo
+{
+    width:318px;
+    position:absolute;
+    top: 515px;
+    left: 678px;
+    height: 201px;
+    
+}
+#leftsideoutline
+{
+    width:591px;
+    position:absolute;
+    top: 207px;
+    left: 15px;
+    height: 595px;
+    color: #808080;
+    background-color: #333333;
+    z-index:-1;
+    border:ridge;
+    border-color:black;
+    border-width:5px;
+}
+
 /*Buynow end*/
 /*Moriah Products*/
 /*Products end*/
