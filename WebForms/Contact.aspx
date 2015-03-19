@@ -8,9 +8,11 @@
     }
 </script>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server" >
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    
+    
     You can contact us by using the form below or through one of the following mediums:<br />
     <br />
     Call: 616-555-2015<br />
@@ -33,5 +35,8 @@
     <asp:Label ID="Contactlbl" runat="server"></asp:Label>
     <br />
     <br />
+
+
+       
     </asp:Content>
 
