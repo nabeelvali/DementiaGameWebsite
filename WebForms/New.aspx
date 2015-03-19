@@ -13,9 +13,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br />
     <br />
-    <asp:Image ID="Newlogo" runat="server" Height="300px" Width="300px" />
-    <p id="Newdescription"> stuffsdjlkfdsjf;lksajf;lkasjhd;lk fjjjjjj jjjjjjjjjj8i64&nbsp;&nbsp;&nbsp; ykm,jjjjjjjjjjjjjjjjjjjjjjj jjjjjjjjjjjjjjjjjjjjjjjjjjj jjjjjjjjjjjjjf
-         
+    <asp:Image ID="Newgamelogo" runat="server" src="../Images/Game%20Logo.png" />
+    <p id="Newdescription"> <text id="Newheader">Dementia: The Dark Journey</text><br />
+
+        Stuff
+
     </p>
     <br />
     <br />

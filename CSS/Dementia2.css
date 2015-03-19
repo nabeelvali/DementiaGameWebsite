@@ -9,6 +9,122 @@
 }
 
 /*Nabeel Buynow*/
+/*Nabeel*/
+#leftsidebox
+{
+    width:616px;
+    position:absolute;
+    top: 158px;
+    left: 13px;
+    height: 669px;
+    background-color: #999999;
+    z-index:-1;
+}
+#leftsideboxoutline
+{
+    position:absolute;
+    width:200px;
+    height:200px;
+}
+#Button1
+{
+    position:absolute;
+    top: 147px;
+    left: 105px;
+    width: 86px;
+}
+#rightsidebox
+{
+    width:412px;
+    position:absolute;
+    top: 186px;
+    left: 629px;
+    height: 639px;
+    background-color: #333333;
+    color: #FFFFFF;
+
+}
+#rightsideboxoutline
+{
+    width:368px;
+    position:absolute;
+    top: 208px;
+    left: 652px;
+    height: 535px;
+    background-color: #999999;
+    color: #FFFFFF;
+
+    
+    
+}
+#lbl1buynow
+{
+    position:absolute;
+
+}
+#signinbox
+{
+    width:319px;
+    position:absolute;
+    top: 294px;
+    left: 676px;
+    height: 200px;
+    color: #333333;
+    background-color: #333333;
+
+
+}
+#usernamepic
+{
+    width:28px;
+    position:absolute;
+    top: 313px;
+    left: 690px;
+    height:23px;
+    background-image:url('/Images/userimage.png');
+    z-index:2;
+}
+#passwordpic
+{
+    width:29px;
+    position:absolute;
+    top: 391px;
+    left: 690px;
+    height: 23px;
+    background-image:url('/Images/lock.png');
+    z-index:2;
+    right: 791px;
+}
+#LoginButton1
+{
+    position:absolute;
+    top: 166px;
+    left: 129px;
+}
+#Quadcorelogo
+{
+    width:318px;
+    position:absolute;
+    top: 515px;
+    left: 678px;
+    height: 201px;
+    
+}
+#leftsideoutline
+{
+    width:591px;
+    position:absolute;
+    top: 207px;
+    left: 15px;
+    height: 595px;
+    color: #808080;
+    background-color: #333333;
+    z-index:-1;
+    border:ridge;
+    border-color:black;
+    border-width:5px;
+}
+
 /*Buynow end*/
 /*Moriah Products*/
 
