@@ -44,7 +44,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <p style="height: 37px; font-size: x-large; background-color: #333333; width: 1028px;">
+    <p style="height: 58px; font-size: x-large; background-color: #333333; width: 1028px;">
         <span class="auto-style3">Your Order:<span class="auto-style4">&nbsp;&nbsp; Dementia: The Dark Journey</span> </span><span class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="auto-style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total:$24.99</span></span></p>
     <br />
     <br />

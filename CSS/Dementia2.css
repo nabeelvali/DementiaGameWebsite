@@ -108,22 +108,22 @@
     top: 515px;
     left: 678px;
     height: 201px;
+    background-image:url(/Images/DementiaDistortedComplete.png/);
+    z-index:5;
     
 }
 #leftsideoutline
 {
     width:591px;
     position:absolute;
-    top: 207px;
+    top: 221px;
     left: 15px;
-    height: 595px;
+    height: 581px;
     color: #808080;
     background-color: #333333;
     z-index:-1;
-    border:ridge;
-    border-color:black;
-    border-width:5px;
-}
+    border:5px ridge black;
+    }
 
 /*Buynow end*/
 /*Moriah Products*/
