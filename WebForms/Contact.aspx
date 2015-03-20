@@ -4,7 +4,7 @@
 
     protected void Contactsendbutton_Click(object sender, EventArgs e)
     {
-        Contactlbl.Text = "Thank you for your time. We will get back to you shortly";
+        Contactlbl.Text = "Thank you for your time. We will get back to you shortly.";
     }
 </script>
 
