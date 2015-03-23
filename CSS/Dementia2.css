@@ -19,14 +19,14 @@
     height: 709px;
     background-color: #999999;
     z-index:-1;
-    margin-left:125px;
+
 }
 #leftsideboxoutline
 {
     position:absolute;
     width:200px;
     height:200px;
-        margin-left:125px;
+
 }
 #Button1
 {
@@ -34,17 +34,17 @@
     top: 147px;
     left: 105px;
     width: 86px;
-    margin-left:125px;
+
 }
 #rightsidebox
 {
     width:412px;
     position:absolute;
-    top: 186px;
+    top: 183px;
     left: 629px;
-    height: 681px;
+    height: 684px;
     background-color: #555555;
-    margin-left:125px;
+
 
 
 }
@@ -53,11 +53,10 @@
     width:368px;
     position:absolute;
     top: 208px;
-    left: 652px;
+    left: 648px;
     height: 535px;
     background-color: #444444;
     color: #FFFFFF;
-    margin-left:125px;
 
     
     
@@ -65,18 +64,18 @@
 #lbl1buynow
 {
     position:absolute;
-    margin-left:125px;
+
 }
 #signinbox
 {
     width:319px;
     position:absolute;
     top: 294px;
-    left: 676px;
+    left: 674px;
     height: 200px;
     color: #333333;
     background-color: #333333;
-    margin-left:125px;
+
 
 }
 #usernamepic
@@ -88,7 +87,7 @@
     height:23px;
     background-image:url('/Images/userimage.png');
     z-index:2;
-    margin-left:125px;
+
 }
 #passwordpic
 {
@@ -100,37 +99,38 @@
     background-image:url('/Images/lock.png');
     z-index:2;
     right: 791px;
-    margin-left:125px;
+
 }
 #LoginButton1
 {
     position:absolute;
     top: 166px;
-    left: -70px;
-    margin-left:125px;
+    left: 128px;
+
 }
 #Quadcorelogo
 {
     width:318px;
     position:absolute;
-    top: 519px;
+    top: 514px;
     left: 673px;
     height: 201px;
-    background-image:url(/Images/DementiaDistortedComplete.png);
-    margin-left:125px;
+    background-image:url('/Images/DementiaDistortedComplete.png');
+    background-repeat:no-repeat;
+
 }
 #leftsideoutline
 {
     width:591px;
     position:absolute;
-    top: 221px;
+    top: 196px;
     left: 15px;
-    height: 581px;
+    height: 606px;
     color: #808080;
     background-color: #333333;
     z-index:-1;
     border:5px ridge black;
-    margin-left:125px;
+
     }
 #pageoutline
 {
@@ -140,13 +140,15 @@
     top: 97px;
     left: 3px;
     z-index:-2;
-    background-color:midnightblue;
-
 }
-#Content2
-#bbn1
+#buttonbuynow1
 {
+    border: medium inset blue;
     position:absolute;
+    top: 763px;
+    left: 229px;
+    z-index:auto;
+    right: 1163px;
 }
 
 
