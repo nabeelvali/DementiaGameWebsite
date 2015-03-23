@@ -161,6 +161,11 @@
     float:left;
 }
 
+
+.PriceText
+{
+    float:left;
+}
 #Pacmantext
 {
     position:relative;
