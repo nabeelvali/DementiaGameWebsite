@@ -16,7 +16,7 @@
     position:absolute;
     top: 158px;
     left: 13px;
-    height: 709px;
+    height: 669px;
     background-color: #999999;
     z-index:-1;
     margin-left:125px;
@@ -42,7 +42,7 @@
     position:absolute;
     top: 186px;
     left: 629px;
-    height: 681px;
+    height: 639px;
     background-color: #555555;
     margin-left:125px;
 
@@ -144,12 +144,7 @@
 
 }
 #Content2
-#btn1
-{
-    position:absolute;
-    border:double;
-    border-width:thick;
-}
+
 
 
 /*Buynow end*/
