@@ -28,7 +28,16 @@ body
 }
 
 /*John*/
+#AboutLogo
+{
+    height:350px;
+    float:right;
+}
 
+#Newgamelogo
+{
+    height:350px
+}
 /*John*/
 
 #homelogo
@@ -135,7 +144,9 @@ body
 
 #PurchaseButton1
 {
-    
+    position:relative;
+    top: 73px;
+    left: -333px;
 }
 
 
@@ -143,14 +154,17 @@ body
 
 #PriceLabel1
 {
-    float:inherit;
-    padding-left:20px;
+    position:relative;
+    top: -400px;
+    left: 130px;
 }
 
 #Newdescription
 {
-    float:right;
-
+    position:relative;
+    top: -362px;
+    left: 429px;
+    width: 377px;
 }
 
 #Contactsendbutton

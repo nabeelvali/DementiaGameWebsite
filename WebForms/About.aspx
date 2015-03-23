@@ -13,7 +13,8 @@
 
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
 
-    <h2 id="headerabout">Quadcore Industries</h2>
+    <h2 id="headerabout">Quadcore Industries 
+        <img id="AboutLogo" src="../Images/New%20QuadCore%20Logo.jpg" /></h2>
 
     <p>We are an American video game development company headquartered in Grand Rapids, Michigan, 
         United States. QuadCore was founded on March 11, 2000 by Grant Avery, John Lemmink, Moriah Reinbold, 
@@ -25,7 +26,7 @@
     <p>These are our current executives:<br />
         President: Grant Avery<br />
         Vice President of Production: Nabeel Vali<br />
-        Vice President of Marketing: John Lemmink<br />
+        Vice President of Marketing and Writer: John Lemmink<br />
         Vice President of Design: Moriah Reinbold<br />
 
     </p>
