@@ -116,7 +116,7 @@
     top: 519px;
     left: 673px;
     height: 201px;
-    background-image:url('/Images/DementiaDistortedComplete.png/');
+    background-image:url(/Images/DementiaDistortedComplete.png);
     margin-left:125px;
 }
 #leftsideoutline
