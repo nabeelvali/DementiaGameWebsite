@@ -158,6 +158,7 @@
     background-image:url(/Images/1367506854_4006_Pac-Man.jpg);
     background-repeat:no-repeat;
     position:relative;
+    float:left;
 }
 
 #Pacmantext

@@ -40,7 +40,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
     <%--<p style="width: 1195px; height: 391px" id="Pacmantext1">--%>
-        <asp:Image ID="Pacmanimage" runat="server" CssClass="Pacman" Height="248px" Width="601px" />
+        <asp:Image ID="Pacmanimage" runat="server" CssClass="Pacman" Height="248px" Width="601px" ImageUrl="~/Images/1367506854_4006_Pac-Man.jpg" />
     <p ID="Pacmantext" runat="server" style="height: 150px; width: 913px" >You play as Pac-Man. Pac-Man has to collect small little pellets that give you points. The twist is, as you collect this pellets, ghosts chase you, and if you get hit by one, it's game over! In each corner, there is a bigger pellet, and if you eat the bigger pellets, the ghosts become eatable! If you eat them, they automatically go back to start and respwan. After a certain amount of time, the power pellet runs out and the ghosts return to normal. </p> 
 <%--=======
     <p style="width: 1757px; height: 391px" id="Pacmantext1">
@@ -60,7 +60,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     
         <hr class="line" style="width: 1176px" />
-    <asp:Image ID="Zeldaimage" runat="server" Height="292px" Width="297px" CssClass="LegendofZelda" />
+    <asp:Image ID="Zeldaimage" runat="server" Height="292px" Width="297px" CssClass="LegendofZelda" ImageUrl="~/Images/The-Legend-of-Zelad-1.jpg" />
 &nbsp;<p ID="Zeldatext" runat="server" style="width: 910px">Play as the corageous hero of time as you venture through Hyrule to save princess Zelda. You will face many evil monsters, and bosses and you must strive to defeat Ganon. All of Hyrule has fallen into darkness, and only you can get the last piece of triforce and restore the light that once was Hyrule.</p>
 <%--=======
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -78,7 +78,7 @@
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<hr class="line" style="width: 1174px; height: -12px;" />
     
-        <asp:Image runat="server" CssClass="Minecraft" Height="214px" Width="459px" ID="Image3" />
+        <asp:Image runat="server" CssClass="Minecraft" Height="214px" Width="459px" ID="Image3" ImageUrl="~/Images/Minecraft_Steam_Icon.png" />
         &nbsp;<p ID="Minecrafttext" runat="server" style="width: 888px">You play as... Well you play as whoever you want! You create your character and venture through the world, creating homes, mining exotic ores, and fighting evil creatures. This game is unqiue becasue you choose your fate. You can build a house underground and mine forever, you can create forests and build a treehouse to hide and protect yourself from the monsters that hunt you. The possibilities are endless!</p>
 <%--=======
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<hr class="line" style="width: 1883px" />
@@ -94,7 +94,7 @@
 
     <hr class="line" style="width: 1883px" />
 
-        <asp:Image ID="Image4" runat="server" CssClass="Portal" Height="313px" Width="501px" />
+        <asp:Image ID="Image4" runat="server" CssClass="Portal" Height="313px" Width="501px" ImageUrl="~/Images/portal1.jpg" />
         &nbsp;<p ID="Portaltext" runat="server" style="width: 890px">You play as Cell, a test subject in Aperture science laboratories. You get a portal gun, and are put into a building full of puzzles in the form of rooms. You must escape the lab and discover the secrets about Aperture science laboratories. The puzzles contain different items such as turrent drones, boxes, boxes that you need to protect, and many others. Why are you here? Who is talking to you through the loud speaker? Where is everyone? Who is Glados?</p>
 <%--=======
     <p style="width: 1255px; height: 455px">
@@ -109,7 +109,7 @@
     <hr class="line" style="width: 1883px" />
 
     
-        <asp:Image ID="Image5" runat="server" CssClass="SuperMario" Height="222px" Width="494px" />
+        <asp:Image ID="Image5" runat="server" CssClass="SuperMario" Height="222px" Width="494px" ImageUrl="~/Images/super-mario-logo.jpg" />
         <p ID="SuperMariotext" runat="server" >This is a side scroller game. You have to smash blocks to get coins, go over and in pipes, and jump on bad guys to eliminate them. Some enemies include: Goombas, Koopa Troopas, Bomb-ombs, and Bullet Bills. You must locate the castle that Bowser is in so you can destroy him and save the princess Peach.</p>
 <%--=======
     <p>
