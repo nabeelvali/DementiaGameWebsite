@@ -79,6 +79,12 @@
         
         
         <div id="rightside">
+           <p id="Masterrightsideborder">Buy 
+               <text id="Masterdementiatext">Dementia: The Dark Journey</text>
+                Now! 
+                
+           </p>
+           <%-- <asp:Label ID="Masterrightsideborder" runat="server" Text="Buy Dementia: The Dark Journey Now!">Buy <text id="Masterdementiatext">Dementia: The Dark Journey</text> Now!</asp:Label>--%>
 
         </div>
 

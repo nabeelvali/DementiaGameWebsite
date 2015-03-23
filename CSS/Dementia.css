@@ -46,6 +46,7 @@ body
     width:30%;
     height:600px;
     border:thin solid #000000;
+    font-family:Consolas;
 }
 
 /*Grant*/
@@ -53,6 +54,18 @@ body
 #Content1
 {
     background-color:gold;
+}
+
+#Masterdementiatext
+{
+    font-style:italic;
+}
+
+#Masterrightsideborder
+{
+    margin:1px;
+    border:inset 2px;
+    
 }
 /*Grant*/
 
