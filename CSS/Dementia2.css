@@ -159,6 +159,12 @@
 {
     background-image:url(/Images/1367506854_4006_Pac-Man.jpg);
     background-repeat:no-repeat;
+    position:relative;
+}
+
+#Pacmantext
+{
+    position:relative;
 }
 
 .Minecraft
@@ -167,10 +173,20 @@
     background-repeat:no-repeat;
 }
 
+#Minecrafttext
+{
+    position:relative;
+}
+
 .Portal
 {
     background-image:url(/Images/portal1.jpg);
     background-repeat:no-repeat;
+}
+
+#Portaltext
+{
+    position:relative;
 }
 
 .SuperMario
@@ -179,10 +195,20 @@
     background-repeat:no-repeat;
 }
 
+#SuperMariotext
+{
+    position:relative;
+}
+
 .LegendofZelda
 {
     background-image:url(/Images/The-Legend-of-Zelad-1.jpg);
     background-repeat:no-repeat;
+}
+
+#Zeldatext
+{
+    position:relative;
 }
 
 /*Products end*/
