@@ -56,7 +56,7 @@ body
     background-color:gold;
 }
 
-#Masterdementiatext
+#Masterrightlinkbtn
 {
     font-style:italic;
 }
@@ -64,7 +64,8 @@ body
 #Masterrightsideborder
 {
     margin:1px;
-    border:inset 2px;
+    padding:1px;
+    border:ridge 2px;
     
 }
 /*Grant*/
