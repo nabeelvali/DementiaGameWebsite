@@ -125,7 +125,7 @@
     <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="buttonbuynow1" runat="server" OnClick="bbn1_Click" Text="Purchase" Font-Size="Large" CausesValidation="False" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="buttonbuynow1" runat="server" OnClick="bbn1_Click" Text="Purchase" Font-Size="Large" CausesValidation="False" BorderColor="#999999" BorderWidth="5px" Width="100px" />
     &nbsp;
     <br />
     <div id="leftsidebox">
@@ -161,7 +161,7 @@
 
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="LoginButton1" runat="server" OnClick="LoginButton1_Click" Text="Login" ValidateRequestMode="Enabled" />
+        <asp:Button ID="LoginButton1" runat="server" OnClick="LoginButton1_Click" Text="Login" ValidateRequestMode="Enabled" BorderColor="#999999" BorderWidth="5px" />
 
     </div>
     <div id="usernamepic">
