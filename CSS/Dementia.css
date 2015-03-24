@@ -8,21 +8,11 @@
     John: above the homelogo tag
     Moriah: about the rightside tag
     Grant: above the maincontent tag
-    *//
-.Grant
-{
-
-}
+    */
 
 
-/*Nabeel*/
 body 
 {   
-   /*background-image:url(/Images/GrayCarbonFiber.jpg);
-       
-    background-repeat:repeat-y;
-    background-size:cover;*/
-
     padding: 5px;
     font-family: Consolas;
 }
@@ -44,10 +34,6 @@ body
 {
     height:70px;
 }
-
-/*Moriah*/
-
-/*Moriah*/
 
 #rightside
 {
