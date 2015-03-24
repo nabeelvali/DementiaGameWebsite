@@ -9,7 +9,7 @@
 
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        
     }
 
     protected void LoginButton1_Click(object sender, EventArgs e)
@@ -22,6 +22,11 @@
     {
         string display = "Thank You for purchasing the game! You may now close this page.";
         ClientScript.RegisterStartupScript(this.GetType(), "yourMessage", "alert('" + display + "');", true);
+    }
+
+    protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)
+    {
+
     }
 </script>
         
