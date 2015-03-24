@@ -97,7 +97,7 @@
 
     
         <asp:Image ID="Image5" runat="server" CssClass="SuperMario" Width="500px" ImageUrl="~/Images/super-mario-logo.jpg" />
-        <p ID="SuperMariotext" runat="server" style="width: px" >This is a side scroller game. You have to smash blocks to get coins, go over and in pipes, and jump on bad guys to eliminate them. Some enemies include: Goombas, Koopa Troopas, Bomb-ombs, and Bullet Bills. You must locate the castle that Bowser is in so you can destroy him and save the princess Peach.</p>
+        <p ID="SuperMariotext" runat="server"  >This is a side scroller game. You have to smash blocks to get coins, go over and in pipes, and jump on bad guys to eliminate them. Some enemies include: Goombas, Koopa Troopas, Bomb-ombs, and Bullet Bills. You must locate the castle that Bowser is in so you can destroy him and save the princess Peach.</p>
 
         <br />
 
