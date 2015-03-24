@@ -24,7 +24,7 @@
         ClientScript.RegisterStartupScript(this.GetType(), "yourMessage", "alert('" + display + "');", true);
     }
 </script>
-
+        
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <link rel="stylesheet" type="text/css" href="/CSS/Dementia2.css" />
     <style type="text/css">

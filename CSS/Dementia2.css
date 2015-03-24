@@ -52,11 +52,12 @@
 {
     width:368px;
     position:absolute;
-    top: 208px;
+    top: 206px;
     left: 648px;
     height: 535px;
     background-color: #444444;
     color: #FFFFFF;
+    border:5px inset green;
 
     
     
@@ -113,9 +114,9 @@
 {
     width:318px;
     position:absolute;
-    top: 514px;
+    top: 509px;
     left: 673px;
-    height: 201px;
+    height: 218px;
     background-image:url('/Images/DementiaDistortedComplete.png');
     background-repeat:no-repeat;
 
@@ -130,7 +131,7 @@
     color: #808080;
     background-color: #333333;
     z-index:-1;
-    border:5px inset darkblue;
+    border:5px inset green;
 
     }
 #pageoutline
@@ -147,9 +148,15 @@
     border: medium inset blue;
     position:absolute;
     top: 763px;
-    left: 229px;
+    left: 238px;
     z-index:auto;
-    right: 1163px;
+    right: 1197px;
+}
+#Submit1
+{
+    position:absolute;
+    top: 808px;
+    left: 788px;
 }
 
 
