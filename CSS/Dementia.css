@@ -24,10 +24,6 @@ body
     float:right;
 }
 
-#Newgamelogo
-{
-    height:350px
-}
 /*John*/
 
 #homelogo
@@ -64,16 +60,27 @@ body
     
 }
 
-#Newgamelogo
-{
-    height:300px;
-}
-
 #hr
 {
     width:65%;
     float:left;
 }
+
+#Home15years
+{
+    position:relative;
+    top: 5px;
+    left: -60px;
+}
+
+#Homenewgame
+{
+    position:relative;
+    top: 5px;
+    left: -60px;
+}
+
+
 /*Grant*/
 
 #maincontent
@@ -140,35 +147,55 @@ body
 
 /*New webform*/
 
-#PurchaseButton1
+#Newgamelogo
 {
     position:relative;
-    top: 73px;
-    left: -333px;
+    top: 11px;
+    left: -2px;
+    height: 400px;
+    
 }
 
-#PriceLabel1
+#Newpurchasebutton
 {
     position:relative;
-    top: -400px;
-    left: 130px;
+
 }
 
 #Newdescription
 {
     position:relative;
-    top: -293px;
-    left: 313px;
+    top: 2px;
+    left: 9px;
     width: 377px;
+}
+
+#Newheader
+{
+    position:relative;
+    font-size:22px;
+    top: 29px;
+    left: 9px;
+    width: 360px;
+    margin-top: 0px;
+}
+
+#Newpurchaselabel
+{
+    position:relative;
+    top: 35px;
+    left: 12px;
+    width: 77px;
+}
+
+#PriceLabel1
+{
+    position:relative;
+    top: 106px;
+    left: 8px;
 }
 
 #Contactsendbutton
 {
     margin-left:230px;
-}
-
-#Newlogo
-{
-    float:left;
-    
 }

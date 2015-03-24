@@ -16,37 +16,28 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <asp:Image ID="Newgamelogo" runat="server" src="../Images/Game%20Logo.png" />
-    <asp:Button ID="PurchaseButton1" runat="server" Height="44px" Text="Purchase" OnClick="PurchaseButton1_Click" BackColor="#009900" BorderColor="#009900" Font-Bold="True" ForeColor="Black" Width="90px" PostBackUrl="~/WebForms/BuyNow.aspx" />
-    <p id="Newdescription"> <text id="Newheader">Dementia: The Dark Journey.<br />
-        You are a man who wakes up in an abandoned cathedral, you cannot remember your name, but you know that you have to escape. You are being chased by dark shadows as you navigate through passages and corridors, looking for clues to who you are, and how to get out. You are not a fighter. Either run, hide, or die. </text>
+    <asp:Image id="Newgamelogo" runat="server" src="../Images/Game%20Logo.png" Height="350px" />
+    
+    
+    
+     
+        <div id="Newheader">Dementia: The Dark Journey.</div>
+        <br />
+    <p id="Newdescription">
+        You are a man who wakes up in an abandoned cathedral,
+        you cannot remember your name, but you know that you have to escape.
+        You are being chased by dark shadows as you navigate through passages 
+        and corridors, looking for clues to who you are, and how to get out.
+        You are not a fighter. Either run, hide, or die.</p>
 
-    </p>
+    &nbsp;<asp:Button id="Button1" Font-Bold="True" runat="server" Text="Purchase" BackColor="#009900" BorderColor="Black" BorderWidth="1px" PostBackUrl="~/WebForms/BuyNow.aspx" Height="35px" Width="90px" />
+
+
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <asp:Label ID="PriceLabel1" runat="server" Text="$24.99" Height="36px"></asp:Label>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-</asp:Content>
+
+
+    <div id="Newpurchaselabel" draggable="true">$24.99</div>
+
+    <br /><br /><br />
+    </asp:Content>
 

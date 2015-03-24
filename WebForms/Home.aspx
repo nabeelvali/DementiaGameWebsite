@@ -16,11 +16,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<asp:Image ID="Image1" runat="server" CssClass="celebrate" Height="360px" ImageUrl="~/Images/Celebrating15years_shrinked.jpg" Width="636px" />
+<asp:Image ID="Home15years" runat="server" CssClass="celebrate" Height="360px" ImageUrl="~/Images/Celebrating15years_shrinked.jpg" Width="636px" />
     <br />
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<asp:ImageButton ID="Image2" runat="server" Height="278px" ImageUrl="~/Images/newgame-button.jpg" Width="497px" PostBackUrl="~/WebForms/BuyNow.aspx" />
+<asp:ImageButton ID="Homenewgame" runat="server" Height="278px" ImageUrl="~/Images/newgame-button.jpg" Width="497px" PostBackUrl="~/WebForms/BuyNow.aspx" />
 <br />
 <br />
 
