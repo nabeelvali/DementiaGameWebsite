@@ -20,7 +20,7 @@
     <br />
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<asp:Image ID="Image2" runat="server" Height="175px" ImageUrl="~/Images/newgame.jpg" Width="460px" />
+<asp:ImageButton ID="Image2" runat="server" Height="278px" ImageUrl="~/Images/newgame-button.jpg" Width="497px" PostBackUrl="~/WebForms/BuyNow.aspx" />
 <br />
 <br />
 
