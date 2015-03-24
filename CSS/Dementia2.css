@@ -168,10 +168,21 @@
 .PriceText
 {
     float:left;
+    
 }
+
 #Pacmantext
 {
     position:relative;
+    width:300px;
+}
+
+#Pacmanimage
+{
+    float:left;
+    width:60%;
+    top: 0px;
+    left: 0px;
 }
 
 .Minecraft

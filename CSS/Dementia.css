@@ -63,6 +63,17 @@ body
     border:ridge 2px;
     
 }
+
+#Newgamelogo
+{
+    height:300px;
+}
+
+#hr
+{
+    width:65%;
+    float:left;
+}
 /*Grant*/
 
 #maincontent
@@ -146,8 +157,8 @@ body
 #Newdescription
 {
     position:relative;
-    top: -362px;
-    left: 429px;
+    top: -293px;
+    left: 313px;
     width: 377px;
 }
 
