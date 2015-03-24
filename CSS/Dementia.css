@@ -70,6 +70,7 @@ body
     float:left;
     width: 65%;
     height:600px;
+    background-color:green;
 }
 
 #footer
@@ -134,9 +135,6 @@ body
     top: 73px;
     left: -333px;
 }
-
-
-
 
 #PriceLabel1
 {
