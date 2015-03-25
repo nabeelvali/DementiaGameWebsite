@@ -68,7 +68,7 @@
         </div>
 
 
-        <div id="footer">
+        <div id="footer" class="footer">
             <p>
                 © 2015 QuadCore Industries. All Rights Reserved.
             </p>

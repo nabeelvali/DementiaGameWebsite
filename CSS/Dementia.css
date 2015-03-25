@@ -34,7 +34,7 @@ body
 {
     float:right;
     width:30%;
-    height:1000px;
+    height:400px;
     border:thin solid #000000;
     font-family:Consolas;
 }
@@ -47,7 +47,7 @@ body
     
 }
 
-#footer
+.footer
 {
     
     clear:both;
@@ -127,22 +127,22 @@ body
 
 /*Home*/
 
-#Home15years
+.Home15years
 {
     position:relative;
     top: 5px;
     left: -60px;
     height: 317px;
-    width: 552px;
+
 }
 
-#Homenewgame
+.Homenewgame
 {
     position:relative;
     top: 5px;
     left: -60px;
-    height: 224px;
-    width: 387px;
+    height: 254px;
+
 }
 
 /*Home end*/

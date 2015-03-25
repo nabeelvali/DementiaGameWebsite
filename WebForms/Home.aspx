@@ -16,11 +16,11 @@
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <asp:Image ID="Home15years" runat="server" ImageUrl="~/Images/Celebrating15years_shrinked.jpg" />
+    <asp:Image id="Home15years" runat="server" ImageUrl="~/Images/Celebrating15years_shrinked.jpg" CssClass="Home15years" />
     <br /><br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:ImageButton ID="Homenewgame" runat="server" ImageUrl="~/Images/newgame-button.jpg" PostBackUrl="~/WebForms/BuyNow.aspx"/>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <asp:ImageButton id="Homenewgame" runat="server" ImageUrl="~/Images/newgame-button.jpg" PostBackUrl="~/WebForms/BuyNow.aspx" CssClass="Homenewgame"/>
+    <br /><br /><br /><br /><br /><br />
 
 </asp:Content>
