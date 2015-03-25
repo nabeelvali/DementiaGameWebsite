@@ -2,27 +2,25 @@
 
 <script runat="server">
 
-    
+    protected void Homenewgame_Click(object sender, ImageClickEventArgs e)
+    {
+
+    }
 </script>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-
 </asp:Content>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    
-    <%--<div id="background" style="height: 737px; width: 789px; margin-right: 0px; background-color: #66FF33"> </div>--%>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<asp:Image ID="Home15years" runat="server" CssClass="celebrate" Height="360px" ImageUrl="~/Images/Celebrating15years_shrinked.jpg" Width="636px" />
-    <br />
-<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<asp:ImageButton ID="Homenewgame" runat="server" Height="278px" ImageUrl="~/Images/newgame-button.jpg" Width="497px" PostBackUrl="~/WebForms/BuyNow.aspx" />
-<br />
-<br />
+    <asp:Image ID="Home15years" runat="server" ImageUrl="~/Images/Celebrating15years_shrinked.jpg" />
+    <br /><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="Homenewgame" runat="server" ImageUrl="~/Images/newgame-button.jpg" PostBackUrl="~/WebForms/BuyNow.aspx"/>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 </asp:Content>
-

@@ -11,15 +11,6 @@ body
     height:70px;
 }
 
-#rightside
-{
-    float:right;
-    width:30%;
-    height:600px;
-    border:thin solid #000000;
-    font-family:Consolas;
-}
-
 #Masterrightlinkbtn
 {
     font-style:italic;
@@ -39,18 +30,28 @@ body
     float:left;
 }
 
+#rightside
+{
+    float:right;
+    width:30%;
+    height:1000px;
+    border:thin solid #000000;
+    font-family:Consolas;
+}
+
 #maincontent
 {
     float:left;
     width: 65%;
-    height:600px;
+    height:1000px;
     
 }
 
 #footer
 {
-    clear:both;
     
+    clear:both;
+    font-family:'Myriad Pro';
 }
 
 #headerabout
@@ -131,6 +132,8 @@ body
     position:relative;
     top: 5px;
     left: -60px;
+    height: 317px;
+    width: 552px;
 }
 
 #Homenewgame
@@ -138,6 +141,8 @@ body
     position:relative;
     top: 5px;
     left: -60px;
+    height: 224px;
+    width: 387px;
 }
 
 /*Home end*/

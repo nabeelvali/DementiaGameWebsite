@@ -4,49 +4,18 @@
 
 <script runat="server">
 
-   
-    protected void homelogo_Click(object sender, ImageClickEventArgs e)
-    {
-
-    }
-
-    protected void about_Click(object sender, EventArgs e)
-    {
-        
-    }
-
-    protected void new_Click(object sender, EventArgs e)
-    {
-
-    }
-
-    protected void buy_Click(object sender, EventArgs e)
-    {
-
-    }
-
-    protected void products_Click(object sender, EventArgs e)
-    {
-
-    }
-
-    protected void contact_Click(object sender, EventArgs e)
-    {
-
-    }
-
     protected void Page_Load(object sender, EventArgs e)
     {
 
     }
+    
 </script>
 
 
 
-    
-
     <link rel="stylesheet" type="text/css" href="/CSS/Dementia.css" />
-<link rel="stylesheet" type="text/css" href="/CSS/Dementia2.css" />
+<%--<link rel="stylesheet" type="text/css" href="/CSS/Dementia2.css" />--%>
+
     <asp:ContentPlaceHolder id="head" runat="server">
         <p>
         </p>
@@ -59,28 +28,26 @@
 <html>
 <body>
     
-        
     
 
     <form id="form1" runat="server">
 
         <div id="banner">
-            
-            
-            
+             
             &nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="homelogo" src="../Images/New%20QuadCore%20Logo2.jpg" runat="server" OnClick="homelogo_Click" PostBackUrl="~/WebForms/Home.aspx" />
+            <asp:ImageButton ID="homelogo" src="../Images/New%20QuadCore%20Logo2.jpg" runat="server" PostBackUrl="~/WebForms/Home.aspx" />
             
             <%--<asp:Button ID="home" runat="server" Text="" Width="105px" src="../Images/QuadCoreLogo-DesktopFit.png"/>--%>
-            &nbsp;<asp:Button ID="about" runat="server" Text="About" Width="70px" OnClick="about_Click" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/About.aspx"/>
-            &nbsp;<asp:Button ID="new" runat="server" Text="New" Width="50px" OnClick="new_Click" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/New.aspx"/>
+            &nbsp;<asp:Button ID="about" runat="server" Text="About" Width="70px" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/About.aspx"/>
+            &nbsp;<asp:Button ID="new" runat="server" Text="New" Width="50px" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/New.aspx"/>
             &nbsp;<asp:Button ID="buy" runat="server" Text="Buy Now" Width="80" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/BuyNow.aspx"/>
-            &nbsp;<asp:Button ID="products" runat="server" Text="Products" Width="80px" OnClick="products_Click" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/Products.aspx"/>
-            &nbsp;<asp:Button ID="contact" runat="server" Text="Contact" Width="80px" OnClick="contact_Click" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/Contact.aspx"/>
+            &nbsp;<asp:Button ID="products" runat="server" Text="Products" Width="80px" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/Products.aspx"/>
+            &nbsp;<asp:Button ID="contact" runat="server" Text="Contact" Width="80px" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/Contact.aspx"/>
             <br /><hr />
 
         </div>
         
+
         <br />
         
         
@@ -90,24 +57,21 @@
                &nbsp;Now!
                
            </p>
-           <%-- <asp:Label ID="Masterrightsideborder" runat="server" Text="Buy Dementia: The Dark Journey Now!">Buy <text id="Masterdementiatext">Dementia: The Dark Journey</text> Now!</asp:Label>--%>
 
         </div>
+
 
         <div id="maincontent">
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-                
-                
 
-        
             </asp:ContentPlaceHolder>
         </div>
 
-        
 
         <div id="footer">
-            <p></p>
+            <p>
+                © 2015 QuadCore Industries. All Rights Reserved.
+            </p>
         </div>
 
 
