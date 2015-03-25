@@ -30,6 +30,12 @@
         and corridors, looking for clues to who you are, and how to get out.
         You are not a fighter. Either run, hide, or die.</p>
 
+    <br />
+    <br />
+    <br />
+
+    <img id="Newdementiademo" src="../Images/DementiaDemo.png" class="Newdementiademo" /><br />
+
     &nbsp;<asp:Button id="Button1" Font-Bold="True" runat="server" Text="Purchase" BackColor="#009900" BorderColor="Black" BorderWidth="1px" PostBackUrl="~/WebForms/BuyNow.aspx" Height="35px" Width="90px" />
 
 

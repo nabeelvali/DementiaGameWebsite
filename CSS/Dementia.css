@@ -43,7 +43,7 @@ body
 {
     float:left;
     width: 65%;
-    height:1000px;
+    height:1400px;
     
 }
 
@@ -189,6 +189,15 @@ body
     top: 35px;
     left: 12px;
     width: 77px;
+}
+
+.Newdementiademo
+{
+    position: relative;
+    top: -61px;
+    left: 7px;
+    height: 399px;
+    width: 618px;
 }
 
 /*New end*/
