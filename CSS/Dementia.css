@@ -1,30 +1,10 @@
 ﻿/*Main Parts*/
-/*!!!!!!!!!!HEY LOOK AT THIS!!!!!!!!
-    Make new sections for what you're working 
-    on so we don't have conflicts. Use the comment 
-    thing to designate areas sort of like I've been doing
-    Also put them in different places:
-    Nabeel put them above the body tag
-    John: above the homelogo tag
-    Moriah: about the rightside tag
-    Grant: above the maincontent tag
-    */
-
 
 body 
 {   
     padding: 5px;
     font-family: Consolas;
 }
-
-/*John*/
-#AboutLogo
-{
-    height:350px;
-    float:right;
-}
-
-/*John*/
 
 #homelogo
 {
@@ -38,13 +18,6 @@ body
     height:600px;
     border:thin solid #000000;
     font-family:Consolas;
-}
-
-/*Grant*/
-
-#Content1
-{
-    background-color:gold;
 }
 
 #Masterrightlinkbtn
@@ -66,29 +39,12 @@ body
     float:left;
 }
 
-#Home15years
-{
-    position:relative;
-    top: 5px;
-    left: -60px;
-}
-
-#Homenewgame
-{
-    position:relative;
-    top: 5px;
-    left: -60px;
-}
-
-
-/*Grant*/
-
 #maincontent
 {
     float:left;
     width: 65%;
     height:600px;
-    /*background-color:green;*/
+    
 }
 
 #footer
@@ -101,6 +57,8 @@ body
 {
     font-family: 'Myriad Pro';
 }
+
+/*Main parts end*/
 
 /*Menu Buttons*/
 
@@ -141,11 +99,51 @@ body
     font-family:Consolas;
 }
 
-/*Other*/
+/*Menu buttons end*/
 
 
 
-/*New webform*/
+/*About*/
+
+#AboutLogo
+{
+    height:350px;
+    float:right;
+}
+
+/*About end*/
+
+
+/*Contact*/
+
+#Contactsendbutton
+{
+    margin-left:230px;
+}
+
+/*Contact end*/
+
+
+/*Home*/
+
+#Home15years
+{
+    position:relative;
+    top: 5px;
+    left: -60px;
+}
+
+#Homenewgame
+{
+    position:relative;
+    top: 5px;
+    left: -60px;
+}
+
+/*Home end*/
+
+
+/*New*/
 
 #Newgamelogo
 {
@@ -188,14 +186,4 @@ body
     width: 77px;
 }
 
-#PriceLabel1
-{
-    position:relative;
-    top: 106px;
-    left: 8px;
-}
-
-#Contactsendbutton
-{
-    margin-left:230px;
-}
+/*New end*/
