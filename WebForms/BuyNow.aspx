@@ -20,7 +20,7 @@
 
     protected void bbn1_Click(object sender, EventArgs e)
     {
-        string display = "Thank You for purchasing the game! You may now close this page.";
+        string display = "Thank You for purchasing the game! Your order will be processed shortly. You may now close this page. :)";
         ClientScript.RegisterStartupScript(this.GetType(), "yourMessage", "alert('" + display + "');", true);
     }
 

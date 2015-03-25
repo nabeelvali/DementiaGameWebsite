@@ -19,7 +19,6 @@
     height: 709px;
     background-color: #999999;
     z-index:-1;
-
 }
 
 #leftsideboxoutline
@@ -27,7 +26,6 @@
     position:absolute;
     width:200px;
     height:200px;
-
 }
 
 #Button1
@@ -48,9 +46,6 @@
     left: 629px;
     height: 684px;
     background-color: #555555;
-
-
-
 }
 
 #rightsideboxoutline
@@ -62,16 +57,12 @@
     height: 535px;
     background-color: #444444;
     color: #FFFFFF;
-    border:5px inset green;
-
-    
-    
+    border:5px inset green;   
 }
 
 #lbl1buynow
 {
     position:absolute;
-
 }
 
 #signinbox
@@ -83,8 +74,6 @@
     height: 200px;
     color: #333333;
     background-color: #333333;
-
-
 }
 
 #usernamepic
@@ -96,7 +85,6 @@
     height:23px;
     background-image:url('/Images/userimage.png');
     z-index:2;
-
 }
 
 #passwordpic
@@ -109,7 +97,6 @@
     background-image:url('/Images/lock.png');
     z-index:2;
     right: 791px;
-
 }
 
 #LoginButton1
@@ -118,19 +105,18 @@
     top: 160px;
     left: 121px;
     border-style:inset;
-
+    background-color: #336600;
 }
 
 #Quadcorelogo
 {
-    width:318px;
+    width:284px;
     position:absolute;
     top: 509px;
-    left: 673px;
+    left: 707px;
     height: 218px;
     background-image:url('/Images/DementiaDistortedComplete.png');
     background-repeat:no-repeat;
-
 }
 
 #leftsideoutline
@@ -144,7 +130,6 @@
     background-color: #333333;
     z-index:-1;
     border:5px inset green;
-
 }
 
 #pageoutline
@@ -159,12 +144,13 @@
 
 #buttonbuynow1
 {
-    border: medium inset blue;
+    border: medium inset green;
     position:absolute;
     top: 763px;
     left: 238px;
     z-index:auto;
     right: 1197px;
+    background-color: #336600;
 }
 
 #Submit1
