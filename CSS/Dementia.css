@@ -21,7 +21,6 @@ body
     margin:1px;
     padding:1px;
     border:ridge 2px;
-    
 }
 
 #hr
@@ -34,7 +33,7 @@ body
 {
     float:right;
     width:30%;
-    height:400px;
+    height:450px;
     border:thin solid #000000;
     font-family:Consolas;
 }
@@ -43,13 +42,10 @@ body
 {
     float:left;
     width: 65%;
-    height:1400px;
-    
 }
 
 .footer
 {
-    
     clear:both;
     font-family:'Myriad Pro';
 }
@@ -66,7 +62,6 @@ body
 #banner
 {
     font-family:Consolas;
-    
 }
 
 #home

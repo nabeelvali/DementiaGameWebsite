@@ -29,7 +29,7 @@
 <body>
     
     
-
+    
     <form id="form1" runat="server">
 
         <div id="banner">
@@ -69,7 +69,8 @@
 
 
         <div id="footer" class="footer">
-            <hr />
+            <br /><br />
+            \<hr />
             <p>
                 © 2015 QuadCore Industries. All Rights Reserved.
             </p>
