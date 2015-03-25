@@ -14,7 +14,7 @@
 
     protected void LoginButton1_Click(object sender, EventArgs e)
     {
-        string display = "Our servers seem to be down at the moment :( Please try again later.";
+        string display = "Oh No! Our servers seem to be down at the moment :( Please try again later.";
         ClientScript.RegisterStartupScript(this.GetType(), "yourMessage", "alert('" + display + "');", true);
     }
 
