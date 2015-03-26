@@ -14,7 +14,6 @@
 
 
     <link rel="stylesheet" type="text/css" href="/CSS/Dementia.css" />
-<%--<link rel="stylesheet" type="text/css" href="/CSS/Dementia2.css" />--%>
 
     <asp:ContentPlaceHolder id="head" runat="server">
         <p>
@@ -36,8 +35,7 @@
              
             &nbsp;&nbsp;&nbsp;
             <asp:ImageButton ID="homelogo" src="../Images/New%20QuadCore%20Logo2.jpg" runat="server" PostBackUrl="~/WebForms/Home.aspx" />
-            
-            <%--<asp:Button ID="home" runat="server" Text="" Width="105px" src="../Images/QuadCoreLogo-DesktopFit.png"/>--%>
+
             &nbsp;<asp:Button ID="about" runat="server" Text="About" Width="70px" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/About.aspx"/>
             &nbsp;<asp:Button ID="new" runat="server" Text="New" Width="50px" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/New.aspx"/>
             &nbsp;<asp:Button ID="buy" runat="server" Text="Buy Now" Width="80" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" PostBackUrl="~/WebForms/BuyNow.aspx"/>
@@ -54,7 +52,7 @@
         <div id="rightside">
            <p id="Masterrightsideborder">Buy
                <asp:LinkButton ID="Masterrightlinkbtn" runat="server" PostBackUrl="~/WebForms/New.aspx">Dementia: The Dark Journey</asp:LinkButton>
-               <%--&nbsp;--%>Now!
+               Now!
                
            </p>
 

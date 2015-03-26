@@ -47,7 +47,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
         <asp:Image ID="Pacmanimage" runat="server" CssClass="Pacman"  Width="550px" ImageUrl="~/Images/1367506854_4006_Pac-Man.jpg" />
-    <p ID="Pacmantext" runat="server" style=" width: 550px" >You play as Pac-Man. Pac-Man has to collect small little pellets that give you points. The twist is, as you collect this pellets, ghosts chase you, and if you get hit by one, it's game over! In each corner, there is a bigger pellet, and if you eat the bigger pellets, the ghosts become eatable! If you eat them, they automatically go back to start and respawn. After a certain amount of time, the power pellet runs out and the ghosts return to normal. </p> 
+    <p ID="Pacmantext" runat="server" style=" width: 550px" >You play as Pac-Man. Pac-Man has to collect small little pellets that give you points. The twist is, as you collect this pellets, ghosts chase you, and if they catch you, it's game over! In each corner, there is a bigger pellet, and if you eat the bigger pellets, the ghosts become eatable! If you eat them, they automatically go back to start and respawn. After a certain amount of time, the power pellet runs out and the ghosts return to normal. </p> 
 
         <br />
         <br />
@@ -60,7 +60,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <hr class="line" style="height: 0px;" />
     &nbsp;<asp:Image ID="Zeldaimage" runat="server" Width="300px" CssClass="LegendofZelda" ImageUrl="~/Images/The-Legend-of-Zelad-1.jpg" />
-&nbsp;<p ID="Zeldatext" runat="server" style="width: 550px">Play as the corageous hero of time as you venture through Hyrule to save princess Zelda. You will face many evil monsters, and bosses and you must strive to defeat Ganon. All of Hyrule has fallen into darkness, and only you can get the last piece of triforce and restore the light that once was Hyrule.</p>
+&nbsp;<p ID="Zeldatext" runat="server" style="width: 550px">Play as the corageous hero of time as you venture through Hyrule to save princess Zelda. You will face many evil monsters, bosses, and the villain Ganon. All of Hyrule has fallen into darkness, and only you can get the last piece of Triforce and restore the light that once was Hyrule.</p>
 
     <br />
     <asp:Label ID="LOZPrice" runat="server" Text="$12.99" Font-Bold="True" CssClass="PriceText"></asp:Label>
@@ -73,7 +73,7 @@
     <hr class="line" style="height: -12px;" />
     
         <asp:Image runat="server" CssClass="Minecraft" Width="500px" ID="Image3" ImageUrl="~/Images/Minecraft_Steam_Icon.png" />
-        &nbsp;<p ID="Minecrafttext" runat="server" style="width: 550px">You play as... Well you play as whoever you want! You create your character and venture through the world, creating homes, mining exotic ores, and fighting evil creatures. This game is unique because you choose your fate. You can build a house underground and mine forever, you can create forests and build a treehouse to hide and protect yourself from evil monsters, etc. The possibilities are endless!</p>
+        &nbsp;<p ID="Minecrafttext" runat="server" style="width: 550px">You play as... Well, you play as whoever you want! You create your character and venture through the world, creating homes, mining exotic ores, and fighting evil creatures. This game is unique because you choose your fate. You can build a house underground and mine forever, you can create forests and build a treehouse to hide and protect yourself from evil monsters, etc. The possibilities are endless!</p>
     
     <br />
         <br />
@@ -90,7 +90,7 @@
     <hr class="line" style=""/>
 
         <asp:Image ID="Image4" runat="server" CssClass="Portal"  Width="500px" ImageUrl="~/Images/portal.jpg" />
-        &nbsp;<p ID="Portaltext" runat="server" style="width: 550px">You play as Chell, a test subject in Aperture science laboratories. You get a portal gun, and are put into a building full of puzzles in the form of rooms. You must escape the lab and discover the secrets about Aperture science laboratories. The puzzles contain different items such as turrent drones, boxes, boxes that you need to protect, and many others. Why are you here? Who is talking to you through the loud speaker? Where is everyone? Who is Glados?</p>
+        &nbsp;<p ID="Portaltext" runat="server" style="width: 550px">You play as Chell, a test subject in Aperture science laboratories. You get a portal gun and are put into a building full of puzzles in the form of rooms. You must escape the lab and discover the secrets about Aperture science laboratories. The puzzles contain different items such as turrent drones, boxes, boxes that you need to protect, and many others. Why are you here? Who is talking to you through the loud speaker? Where is everyone? Who is Glados? You will discover all this and more in this amazing game!</p>
 
         <br />
 

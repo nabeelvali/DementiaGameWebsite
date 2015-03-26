@@ -27,10 +27,10 @@
 
         The game starts when you wake up as a man in an abandoned cathedral.
         Without any recollection of who you are, what your name was, or why 
-        you were sent there, you make the choice to delve into the cathedrals dark passageways.
+        you were sent there, you make the choice to delve into the cathedral's dark passageways.
         But, as you journey into the depths of this dark place it is clear that you are not alone.
         This once glorified cathedral is now inhabited by the darkest souls, and the most horrific spirits.
-        You know that you are not a fighter, so you must look for clues to figure your way out.
+        You know that you are not a fighter, so you must look for clues to find your way out.
         Your only objective is to make it out ALIVE!</p>
 
 
