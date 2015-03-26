@@ -73,7 +73,9 @@
     <hr class="line" style="height: -12px;" />
     
         <asp:Image runat="server" CssClass="Minecraft" Width="500px" ID="Image3" ImageUrl="~/Images/Minecraft_Steam_Icon.png" />
-        &nbsp;<br />
+        &nbsp;<p ID="Minecrafttext" runat="server" style="width: 550px">You play as... Well you play as whoever you want! You create your character and venture through the world, creating homes, mining exotic ores, and fighting evil creatures. This game is unique because you choose your fate. You can build a house underground and mine forever, you can create forests and build a treehouse to hide and protect yourself from evil monsters, etc. The possibilities are endless!</p>
+    
+    <br />
         <br />
 
         <asp:Label ID="Minecraftprice" runat="server" Text="$15.99" Font-Bold="True" CssClass="PriceText"></asp:Label>

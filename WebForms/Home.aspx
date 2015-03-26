@@ -20,7 +20,7 @@
     <br /><br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:ImageButton id="Homenewgame" runat="server" ImageUrl="~/Images/newgame-button.jpg" PostBackUrl="~/WebForms/BuyNow.aspx" CssClass="Homenewgame"/>
+    <asp:ImageButton id="Homenewgame" runat="server" ImageUrl="~/Images/newgame-button.jpg" PostBackUrl="~/WebForms/New.aspx" CssClass="Homenewgame"/>
     <br /><br /><br /><br /><br /><br />
 
 </asp:Content>
