@@ -54,7 +54,7 @@
         <div id="rightside">
            <p id="Masterrightsideborder">Buy
                <asp:LinkButton ID="Masterrightlinkbtn" runat="server" PostBackUrl="~/WebForms/New.aspx">Dementia: The Dark Journey</asp:LinkButton>
-               &nbsp;Now!
+               <%--&nbsp;--%>Now!
                
            </p>
 
