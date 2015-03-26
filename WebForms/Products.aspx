@@ -87,7 +87,7 @@
 
     <hr class="line" style=""/>
 
-        <asp:Image ID="Image4" runat="server" CssClass="Portal"  Width="500px" ImageUrl="~/Images/portal1.jpg" />
+        <asp:Image ID="Image4" runat="server" CssClass="Portal"  Width="500px" ImageUrl="~/Images/portal.jpg" />
         &nbsp;<p ID="Portaltext" runat="server" style="width: 550px">You play as Chell, a test subject in Aperture science laboratories. You get a portal gun, and are put into a building full of puzzles in the form of rooms. You must escape the lab and discover the secrets about Aperture science laboratories. The puzzles contain different items such as turrent drones, boxes, boxes that you need to protect, and many others. Why are you here? Who is talking to you through the loud speaker? Where is everyone? Who is Glados?</p>
 
         <br />

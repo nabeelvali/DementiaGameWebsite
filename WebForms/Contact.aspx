@@ -26,7 +26,7 @@
     <asp:TextBox ID="TextBox2" runat="server" Width="300px"></asp:TextBox>
     <br />
     Message:<br />
-    <asp:TextBox ID="TextBox3" runat="server" Height="90px" Width="300px"></asp:TextBox>
+    <asp:TextBox ID="TextBox3" runat="server" Height="90px" Width="300px" TextMode="MultiLine"></asp:TextBox>
     <br />
     <br />
     <asp:Button ID="Contactsendbutton" runat="server" Text="Send" Width="77px" OnClick="Contactsendbutton_Click" />
