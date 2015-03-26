@@ -69,11 +69,12 @@
 
 
         <div id="footer" class="footer">
-            <br /><br />
+            <br /><br /><br /><br />
             <hr />
             <p>
                 © 2015 QuadCore Industries. All Rights Reserved.
             </p>
+            <br />
         </div>
 
 
