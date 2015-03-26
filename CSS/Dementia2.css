@@ -108,14 +108,16 @@
     background-color: #336600;
 }
 
-#Quadcorelogo
+
+
+#Buyquadcorelogo
 {
     width:284px;
     position:absolute;
     top: 509px;
     left: 707px;
     height: 218px;
-    background-image:url('/Images/DementiaDistortedComplete.png');
+    
     background-repeat:no-repeat;
 }
 
