@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/DementiaGameMasterPage.master" %>
+﻿<%@ Page Title="QuadCore Industries" Language="C#" MasterPageFile="~/MasterPages/DementiaGameMasterPage.master" %>
 
 <script runat="server">
 
