@@ -176,7 +176,7 @@
 
     </div>
     <div id="Quadcorelogo">
-        <img id="Buyquadcorelogo"/>
+
     </div>
     <div id="leftsideoutline">
 
