@@ -57,7 +57,7 @@
     <p ID="Pacmantext" runat="server" style=" width: 550px; top: 5px; left: 2px;" >You play as Pac-Man. Pac-Man has to collect small little pellets that give 
         you points. The twist is, as you collect this pellets, ghosts chase you, and if they catch you, it's game over! In each corner,
         there is a bigger pellet, and if you eat the bigger pellets, the ghosts become eatable! If you eat them, they automatically go back 
-        to start and respawn. After a certain amount of time, the power pellet runs out and the ghosts return to normal. </p> 
+        to start and respawn. After a certain amount of time, the power pellet runs out and the ghosts return to normal.</p> 
         
     <br /><br />
 
